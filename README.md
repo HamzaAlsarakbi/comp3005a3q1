@@ -1,5 +1,9 @@
 # COMP 3005 Assignment 3 Question 1
 
+## Demo
+
+- [Demo](https://youtu.be/AkP_5lPiyKU)
+
 ## Files
 
 * `.gitignore` - ignores local repository preferences.
@@ -25,6 +29,6 @@
 ```bash
 git clone https://www.github.com/HamzaAlsarakbi/comp3005a3q1
 cd comp3005a3q1
-pip3 install psycopg
+pip3 install psycopg2
 python3 script.py
 ```

@@ -19,6 +19,14 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
 ```
 
+### Tableized (Notes)
+
+| `student_id` | `first_name` | `last_name` | `email` | `enrolment_date` |
+|------------|------------|-----------|-------|----------------|
+| 1 | John | Doe | <john.doe@example.com> | 2023-09-01 |
+| 2 | Jane | Smith | <jane.smith@example.com> | 2023-09-01 |
+| 3 | Jim | Beam | <jim.beam@example.com> | 2023-09-02 |
+
 ## Application Functions
 
 * `getAllStudents()`: Retrieves and displays all records from the students table.
