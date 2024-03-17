@@ -15,10 +15,10 @@
 
 ## Run Instructions
 
-### 1. Prequisites
+### 1. Prerequisites
 
-1. `Python3`
-2. `Pip3`
+1. `python3`
+2. `pip3`
 
 ### 2. Setup Database
 
@@ -29,6 +29,6 @@
 ```bash
 git clone https://www.github.com/HamzaAlsarakbi/comp3005a3q1
 cd comp3005a3q1
-pip3 install psycopg2
+pip3 install psycopg2 tabulate
 python3 script.py
 ```
