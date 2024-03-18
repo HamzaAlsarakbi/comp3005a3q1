@@ -2,7 +2,7 @@
 
 ## Demo
 
-- [Demo](https://youtu.be/AkP_5lPiyKU)
+- [Demo](https://youtu.be/FaBMOyZv0p4)
 
 ## Files
 
@@ -22,7 +22,9 @@
 
 ### 2. Setup Database
 
-1. run the `setup.sql` in a Postgres DB.
+1. Open pgAdmin4
+2. Create a new database named 'comp3005a3q1'
+3. Run the `setup.sql` in a Postgres DB.
 
 ### 3. Run
 
@@ -32,3 +34,7 @@ cd comp3005a3q1
 pip3 install psycopg2 tabulate
 python3 script.py
 ```
+
+## Troubleshooting
+
+If your database username and password are not 'postgres', then update them in `script.py`
